@@ -1,0 +1,5 @@
+# Ignore artifacts:
+node_modules
+README.md
+package-lock.json
+package.json

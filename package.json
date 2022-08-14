@@ -1,0 +1,52 @@
+{
+    "author": {
+        "name": "Pablo David C",
+        "email": "cm.pablo.prog@gmail.com",
+        "url": "https://pablo179.github.io/myResume/"
+    },
+    "bugs": {
+        "url": "https://github.com/pablo179/service-boilerplate/issues"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "http-status": "^1.5.2",
+        "swagger-jsdoc": "^6.2.1",
+        "swagger-ui-express": "^4.4.0"
+    },
+    "description": "This is a bolierplate to create a new express app",
+    "devDependencies": {
+        "eslint": "^8.17.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jest": "^26.5.3",
+        "eslint-plugin-prettier": "^4.0.0",
+        "jest": "^28.1.1",
+        "node-mocks-http": "^1.11.0",
+        "nodemon": "^2.0.16",
+        "prettier": "^2.7.1",
+        "supertest": "^6.2.3"
+    },
+    "homepage": "https://github.com/pablo179/service-boilerplate#readme",
+    "keywords": [
+        "express",
+        "RESTapi",
+        "eslint",
+        "jest",
+        "prettier"
+    ],
+    "license": "ISC",
+    "main": "index.js",
+    "name": "service-boilerplate",
+    "scripts": {
+        "start": "node app/index.js",
+        "dev": "nodemon app/index.js",
+        "test": "npx jest -i --colors --verbose --detectOpenHandles",
+        "test:watch": "npx jest -i --watchAll",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "prettier": "prettier --write ."
+    },
+    "version": "1.0.0"
+}
